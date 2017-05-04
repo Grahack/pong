@@ -9,7 +9,7 @@ function setup () {
 hauteurmax = 800;
 longeurmax = 800;
 createCanvas (hauteurmax, longeurmax);
-background (250,0,255);
+background (0,0,180);
 fill (200,192,0);
  x = 320;
   y = 240;
@@ -18,7 +18,7 @@ fill (200,192,0);
 }
 
 function draw () {
-background (250,0,255);
+background (0,0,180);
 rect(longeurmax - 50, mouseY, 10, 60);
 ellipse (x, y, 30, 30);
 if (y >= hauteurmax ){
